@@ -10,8 +10,8 @@ const Header = () => {
    const menuItems = [
       { name: 'About', url: '#aboutMe' },
       { name: 'Experience', url: '#experience' },
-      { name: 'Projects', url: '/projects' },
-      { name: 'Contact', url: '/contact' },
+      { name: 'Projects', url: '#projects' },
+      { name: 'Contact', url: '#contact' },
    ];
 
    return (

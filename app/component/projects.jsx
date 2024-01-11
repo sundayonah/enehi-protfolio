@@ -12,11 +12,12 @@ const Projects = () => {
       <div className="mx-auto max-w-7xl pb-12 pt-6 text-center sm:px-16 px-8 lg:px-8">
          <span className="text-xs text-gray-500">Browse My Recent</span>
          <h1 className="text-2xl">Projects</h1>
-         <div className="flex justify-center items-center space-x-8 mt-4">
+         {/* <div className="flex justify-center items-center space-x-8 mt-4"> */}
+         <div className="flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-12 sm:space-y-0 space-y-5  mt-4">
             {projects.map((projects, index) => (
                <div
                   key={index}
-                  className="p-2 border border-blue-300 rounded-lg"
+                  className=" p-2 border border-blue-300 rounded-lg"
                >
                   <div className="border mb-2">
                      <img
