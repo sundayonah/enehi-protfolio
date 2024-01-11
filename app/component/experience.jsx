@@ -3,7 +3,7 @@ import React from 'react';
 const Experince = () => {
    const hardSkils = [
       'Figma',
-      'Adobe',
+      'Adobe XD',
       'Sketch',
       'Miro',
       'Prototyping',
