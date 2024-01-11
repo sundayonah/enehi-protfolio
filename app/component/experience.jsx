@@ -19,10 +19,11 @@ const Experince = () => {
    ];
 
    return (
-      <div className="mx-auto max-w-4xl  pb-12 pt-6 text-center sm:pl-32 lg:px-8">
+      <div className="mx-auto max-w-4xl  pb-12 pt-6 text-center sm:px-24 px-16 lg:px-8">
          <span className="text-xs text-gray-500">Explore My</span>
          <h1 className="text-2xl">Experience</h1>
-         <div className="flex justify-center items-center space-x-12 mt-4">
+         <div className="flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-12  mt-4">
+            {/* <div className="flex justify-center items-center space-x-12 mt-4"> */}
             <div className="flex flex-col items-center py-3 px-12 border border-blue-300 rounded-tl-lg rounded-br-lg ">
                <h2>Hard Skills</h2>
                <div className="grid grid-cols-2 gap-2">
@@ -49,7 +50,7 @@ const Experince = () => {
                   ))}
                </div>
             </div>
-            <div className="flex flex-col items-start py-3 px-12 border border-blue-300 rounded-tl-lg rounded-br-lg ">
+            <div className="flex flex-col items-start mt-6 sm:mt-0  py-3 px-12 border border-blue-300 rounded-tl-lg rounded-br-lg ">
                <span className="">Soft Skills</span>
                <div></div>
                {softKills.map((skills, index) => (

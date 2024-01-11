@@ -8,7 +8,7 @@ import Footer from './footer';
 const Hero = () => {
    return (
       <>
-         <div className="mx-auto max-w-7xl  pb-12 pt-6 text-center sm:pl-32 lg:px-8">
+         <div className="mx-auto max-w-7xl  pb-12 pt-6 text-center sm:px-32 lg:px-8">
             <div className="">
                <span className="text-sm ">Hello, {`i'm`}</span>
                <p className="text-gray-500 text-xl pb-1">
@@ -20,8 +20,8 @@ const Hero = () => {
                   crafting exceptional digital experiences.
                </p>
             </div>
-            <div className="flex flex-col sm:flex-row sm:pt-2 items-center justify-center space-x-0 sm:space-x-12 mt-4">
-               <div className="flex flex-col bg-blue-800 py-1 px-6 rounded-md space-y-3 sm:space-y-0 sm:flex-row sm:space-x-3">
+            <div className="flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-12  mt-4">
+               <div className="flex flex-row sm:flex-row  justify-center items-center bg-blue-800 py-1  px-14 sm:px-6 rounded-md space-y-3 sm:space-y-0  sm:space-x-3 space-x-3 shadow-2xl">
                   <svg
                      xmlns="http://www.w3.org/2000/svg"
                      fill="none"
@@ -38,7 +38,7 @@ const Hero = () => {
                   </svg>
                   <button className="text-white text-sm">View my Work</button>
                </div>
-               <div className="flex flex-col py-1 px-6 rounded-md border border-blue-300 space-y-3 sm:space-y-0 sm:flex-row sm:space-x-3">
+               <div className="flex flex-row justify-center items-center  sm:flex-row  py-1 px-14 sm:px-6 mt-4 sm:mt-0  rounded-md border border-blue-300 space-y-3 sm:space-y-0 sm:space-x-3 space-x-3 shadow-2xl">
                   <svg
                      xmlns="http://www.w3.org/2000/svg"
                      fill="none"

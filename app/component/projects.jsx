@@ -9,7 +9,7 @@ const Projects = () => {
    ];
 
    return (
-      <div className="mx-auto max-w-7xl pb-12 pt-6 text-center sm:pl-32 lg:px-8">
+      <div className="mx-auto max-w-7xl pb-12 pt-6 text-center sm:px-16 px-8 lg:px-8">
          <span className="text-xs text-gray-500">Browse My Recent</span>
          <h1 className="text-2xl">Projects</h1>
          <div className="flex justify-center items-center space-x-8 mt-4">
