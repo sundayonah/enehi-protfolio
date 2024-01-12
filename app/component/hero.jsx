@@ -1,10 +1,10 @@
 import React from 'react';
 import AboutMe from './aboutMe';
-import Experince from './experience';
 import Projects from './projects';
 import Contact from './contact';
 import Footer from './footer';
 import Link from 'next/link';
+import Experience from './experience';
 
 const Hero = () => {
    return (
@@ -104,11 +104,26 @@ const Hero = () => {
                </div>
             </div> */}
          </div>
-         <div>
-            <AboutMe />
+
+         {/* <AboutMe />
             <Experince />
             <Projects />
             <Contact />
+            <Footer /> */}
+
+         <div id="aboutMe">
+            <AboutMe />
+         </div>
+         <div id="experience">
+            <Experience />
+         </div>
+         <div id="projects">
+            <Projects />
+         </div>
+         <div id="contact">
+            <Contact />
+         </div>
+         <div id="contact">
             <Footer />
          </div>
       </>

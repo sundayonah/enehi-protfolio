@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Experince = () => {
+const Experience = () => {
    const hardSkils = [
       'Figma',
       'Adobe XD',
@@ -87,4 +87,4 @@ const Experince = () => {
    );
 };
 
-export default Experince;
+export default Experience;
