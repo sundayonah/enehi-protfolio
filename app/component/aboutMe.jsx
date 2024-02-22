@@ -2,10 +2,29 @@ import React from 'react';
 
 const AboutMe = () => {
    return (
-      <div className="mx-auto max-w-7xl  pb-12 pt-6 text-center sm:px-32 px-28 lg:px-8">
+      <div className="mx-auto max-w-4xl  pb-12 pt-6 text-center sm:px-32 px-28 lg:px-8">
          <span className="text-xs text-gray-500">Get to Know More</span>
          <h1 className="text-2xl">About Me</h1>
-         <div className="flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-12  mt-4">
+      
+         <div className="">
+            <p className="text-sm mt-5">
+               {` I am a passionate UI/UX designer with a creative flair and 2 years
+            of industry experience. I'm dedicated to crafting digital
+            experiences that are not only visually appealing but also intuitive
+            and user-friendly. In my portfolio, you'll find a selection of
+            projects that highlight my skills in creating seamless user
+            interfaces and engaging user experiences.`}
+            </p>
+            <p className="text-sm">{` Each project tells a
+            unique story of how I've tackled design challenges, from concept to
+            final execution. My design journey is a blend of creativity and
+            problem-solving. I thrive on understanding user needs and
+            translating them into effective solutions. With a strong focus on
+            user-centered design, I've had the privilege to work on a range of
+            exciting projects. My mission is to make the digital world a better
+            place.`}</p>
+         </div>
+            <div className="flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-12  mt-4">
             {/* <div className="flex justify-center items-center space-x-12 mt-4"> */}
             <div className="flex flex-col items-center py-3 px-20 sm:px-20  border border-blue-300 rounded-tr-lg rounded-bl-lg ">
                <svg
@@ -46,24 +65,6 @@ const AboutMe = () => {
                <p>2 years</p>
                <span>UI/UX Design</span>
             </div>
-         </div>
-         <div className="">
-            <p className="text-sm mt-5">
-               {` I am a passionate UI/UX designer with a creative flair and 2 years
-            of industry experience. I'm dedicated to crafting digital
-            experiences that are not only visually appealing but also intuitive
-            and user-friendly. In my portfolio, you'll find a selection of
-            projects that highlight my skills in creating seamless user
-            interfaces and engaging user experiences.`}
-            </p>
-            <p className="text-sm">{` Each project tells a
-            unique story of how I've tackled design challenges, from concept to
-            final execution. My design journey is a blend of creativity and
-            problem-solving. I thrive on understanding user needs and
-            translating them into effective solutions. With a strong focus on
-            user-centered design, I've had the privilege to work on a range of
-            exciting projects. My mission is to make the digital world a better
-            place.`}</p>
          </div>
       </div>
    );
