@@ -25,7 +25,6 @@ const AboutMe = () => {
             place.`}</p>
          </div>
             <div className="flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-12  mt-4">
-            {/* <div className="flex justify-center items-center space-x-12 mt-4"> */}
             <div className="flex flex-col items-center py-3 px-20 sm:px-20  border border-blue-300 rounded-tr-lg rounded-bl-lg ">
                <svg
                   xmlns="http://www.w3.org/2000/svg"
