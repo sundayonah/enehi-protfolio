@@ -8,21 +8,9 @@ const AboutMe = () => {
       
          <div className="">
             <p className="text-sm mt-5">
-               {` I am a passionate UI/UX designer with a creative flair and 2 years
-            of industry experience. I'm dedicated to crafting digital
-            experiences that are not only visually appealing but also intuitive
-            and user-friendly. In my portfolio, you'll find a selection of
-            projects that highlight my skills in creating seamless user
-            interfaces and engaging user experiences.`}
+               {` I am a passionate UI/UX designer with 2 years of experience, dedicated to crafting visually appealing and user-friendly digital experiences. My portfolio showcases projects demonstrating seamless interfaces and engaging user experiences, each telling a unique story of overcoming design challenges. My approach blends creativity with problem-solving, focusing on understanding and meeting user needs. With a strong emphasis on user-centered design, my mission is to improve the digital world.`}
             </p>
-            <p className="text-sm">{` Each project tells a
-            unique story of how I've tackled design challenges, from concept to
-            final execution. My design journey is a blend of creativity and
-            problem-solving. I thrive on understanding user needs and
-            translating them into effective solutions. With a strong focus on
-            user-centered design, I've had the privilege to work on a range of
-            exciting projects. My mission is to make the digital world a better
-            place.`}</p>
+     
          </div>
             <div className="flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-12  mt-4">
             <div className="flex flex-col items-center py-3 px-20 sm:px-20  border border-blue-300 rounded-tr-lg rounded-bl-lg ">

@@ -1,11 +1,20 @@
+'use client'
+
+import Image from 'next/image';
 import Link from 'next/link';
 // import { useRouter } from 'next/router';
-import React from 'react';
+import React, { useState } from 'react';
+import { TiThMenu } from 'react-icons/ti';
+import { IoMdClose } from 'react-icons/io';
 
 const Header = () => {
-   // const { connectWallet, connect } = useContext(MinningContext);
+   // State to manage the mobile menu visibility
+   const [mobileMenuVisible, setMobileMenuVisible] = useState(false);
 
-   //    const router = useRouter();
+   // Function to toggle mobile menu visibility
+   const toggleMobileMenu = () => {
+      setMobileMenuVisible(!mobileMenuVisible);
+   };
 
    const menuItems = [
       { name: 'About', url: '#aboutMe' },
@@ -18,8 +27,10 @@ const Header = () => {
       <main className="w-full flex justify-between  items-center fixed top-0  bg-opacity-10 backdrop-blur-md shadow-lg h-16 z-20">
          <div className="flex w-full p-4 px-8 justify-between items-center  shadow-custom">
             {/* <div className=" pr-2">Logo</div> */}
-            <Link href="/">Logo</Link>
-            <div className="flex space-x-5 justify-center items-center">
+            <Link href="/">
+               <Image src='/images/logo.jpg' width={30} height={20} alt='logo' />
+            </Link>
+            {/* <div className="flex space-x-5 justify-center items-center">
                {menuItems.map((menu) => (
                   <div key={menu.name}>
                      <Link href={menu.url} className="text-gray-500">
@@ -27,7 +38,41 @@ const Header = () => {
                      </Link>
                   </div>
                ))}
-            </div>
+            </div> */}
+                 {/* Mobile menu */}
+               {mobileMenuVisible ? (
+                  <div className="lg:hidden flex flex-col  space-y-2 bg-[#fff] p-4  absolute top-14 right-0 w-48 shadow-2xl">
+                     {menuItems.map((menu) => (
+                        <div key={menu.name}>
+                           <Link href={menu.url} className="text-[#201f54]">
+                              {menu.name}
+                           </Link>
+                        </div>
+                     ))}
+             
+                  </div>
+               ) : (
+                  <>
+                     <div className="hidden lg:flex space-x-5 justify-center items-center">
+                        {menuItems.map((menu) => (
+                           <div key={menu.name}>
+                              <Link href={menu.url} className="text-[#201f54]">
+                                 {menu.name}
+                              </Link>
+                           </div>
+                        ))}
+                 
+
+              
+                     </div>
+                  </>
+            )}
+               <button
+                  className=" lg:hidden text-gray-500 focus:outline-none"
+                  onClick={toggleMobileMenu}
+               >
+                  {mobileMenuVisible ? <IoMdClose /> : <TiThMenu />}
+               </button>
          </div>
       </main>
    );

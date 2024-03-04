@@ -19,10 +19,10 @@ const Projects = () => {
             {projects.map((projects, index) => (
                <div
                   key={index}
-                  className=" p-2 border border-blue-300 rounded-lg"
+                  className=" p-2 shadow-2xl rounded-lg transition-all duration-500 transform hover:translate-y-[-5px]"
                >
                   <div className="border mb-2">
-                                     <img src={projects.image} className="w-full h-40 object-cover" alt="projects" />
+                     <img src={projects.image} className="w-full h-40 object-cover rounded-md" alt="projects" />
 
                      {/* <img
                         src={projects.image}
@@ -33,7 +33,7 @@ const Projects = () => {
                   </div>
                   <Link
                      href={projects.url}
-                     className="p-1 border  border-blue-300 rounded-md"
+                     className="p-1 shadow-xl rounded-md"
                   >
                      <span className="text-sm"> Learn More</span>
                   </Link>

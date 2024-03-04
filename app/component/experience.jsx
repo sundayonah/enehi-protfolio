@@ -24,11 +24,11 @@ const Experience = () => {
          <h1 className="text-2xl">Experience</h1>
          <div className="flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-12  mt-4">
             {/* <div className="flex justify-center items-center space-x-12 mt-4"> */}
-            <div className="flex flex-col items-center py-3 px-12 border border-blue-300 rounded-tl-lg rounded-br-lg ">
+            <div className="flex flex-col items-center py-3 px-12 shadow-xl rounded-tl-lg rounded-br-lg ">
                <h2>Hard Skills</h2>
-               <div className="grid grid-cols-2 gap-2">
+               <div className="grid grid-cols-2 gap-2 ">
                   {hardSkils.map((skills, index) => (
-                     <div key={index} className="flex items-center space-y-2">
+                     <div key={index} className="flex items-center space-y-2 p-1 shadow-sm rounded-sm transition-all duration-500 transform hover:translate-y-[-5px]">
                         <span className="pt-2 pr-1">
                            <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -50,13 +50,13 @@ const Experience = () => {
                   ))}
                </div>
             </div>
-            <div className="flex flex-col items-start mt-6 sm:mt-0  py-3 px-12 border border-blue-300 rounded-tl-lg rounded-br-lg ">
+            <div className="flex flex-col items-start mt-6 sm:mt-0  py-3 px-12 shadow-2xl rounded-tl-lg rounded-br-lg ">
                <span className="">Soft Skills</span>
                <div></div>
                {softKills.map((skills, index) => (
                   <div
                      key={index}
-                     className="flex justify-center items-center space-y-2"
+                     className="flex justify-center items-center space-y-2 p-1 shadow-sm rounded-sm transition-all duration-500 transform hover:translate-y-[-5px]"
                   >
                      <span className="pt-2">
                         <svg
