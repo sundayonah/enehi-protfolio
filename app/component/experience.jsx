@@ -22,7 +22,7 @@ const Experience = () => {
       <div className="mx-auto max-w-4xl  pb-12 pt-6 text-center sm:px-24 px-16 lg:px-8">
          <span className="text-xs text-gray-500">Explore My</span>
          <h1 className="text-2xl">Experience</h1>
-         <div className="bg-black/5 -z-1 end-0  bottom-0 h-24 w-24 animate-ping rounded-full"></div>
+         {/* <div className="bg-black/5 -z-1 end-0  bottom-0 h-24 w-24 animate-ping rounded-full"></div> */}
 
          <div className="flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-12  mt-4">
             {/* <div className="flex justify-center items-center space-x-12 mt-4"> */}
@@ -85,7 +85,7 @@ const Experience = () => {
                ))}
             </div>
          </div>
-         {/* <div className="bg-black/5 -z-1 end-0  bottom-0 h-24 w-24 animate-ping rounded-full"></div> */}
+         <div className="bg-black/5 -z-1 end-0  bottom-0 h-24 w-24 animate-ping rounded-full"></div>
 
       </div>
    );

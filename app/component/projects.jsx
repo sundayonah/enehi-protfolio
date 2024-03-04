@@ -3,11 +3,11 @@ import React from 'react';
 
 const Projects = () => {
    const projects = [
-      { image: '/images/dashboard.jpg', url: 'http://localhost:3000/' },
-      { image: '/images/monie2.jpg', url: 'http://localhost:3000/' },
+      { image: '/images/dashboard.jpg', url: 'https://www.behance.net/gallery/180249645/Business-Management-App-Dashboard' },
+      { image: '/images/monie2.jpg', url: 'https://www.behance.net/gallery/189424951/Staking' },
       { image: '/images/KCtoken.jpg', url: 'http://localhost:3000/' },
-      { image: '/images/stake.jpg', url: 'http://localhost:3000/' },
-      { image: '/images/wow.jpg', url: 'http://localhost:3000/' },
+      { image: '/images/stake.jpg', url: 'https://www.behance.net/gallery/189002943/Staking-DApp' },
+      { image: '/images/wow.jpg', url: 'https://www.behance.net/gallery/166140033/FINDMYDOC-APP'},
    ];
 
    return (
