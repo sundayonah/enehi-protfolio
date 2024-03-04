@@ -12,8 +12,8 @@ const AboutMe = () => {
             </p>
      
          </div>
-            <div className="flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-12  mt-4">
-            <div className="flex flex-col items-center py-3 px-20 sm:px-20  border border-blue-300 rounded-tr-lg rounded-bl-lg ">
+            <div className="flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-12  mt-8">
+            <div className="flex flex-col items-center py-3 px-20 sm:px-20  shadow-2xl  rounded-tr-lg rounded-bl-lg ">
                <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -32,7 +32,7 @@ const AboutMe = () => {
                <p>2 years</p>
                <span>UI/UX Design</span>
             </div>
-            <div className="flex flex-col mt-4 sm:mt-0  items-center py-3 px-20 sm:px-20 border border-blue-300 rounded-tr-lg rounded-bl-lg ">
+            <div className="flex flex-col mt-4 sm:mt-0  items-center py-3 px-20 sm:px-20 shadow-2xl  rounded-tr-lg rounded-bl-lg ">
                <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
