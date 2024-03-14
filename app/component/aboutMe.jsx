@@ -50,7 +50,7 @@ const AboutMe = () => {
 
                <h2>Education</h2>
                <p>Federal University of Technology, Minna</p>
-               <span>Biochemistry</span>
+               <span className='font-bold text-gray-400'>Biochemistry</span>
             </div>
          </div>
       </div>
