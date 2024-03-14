@@ -49,8 +49,8 @@ const AboutMe = () => {
                </svg>
 
                <h2>Education</h2>
-               <p>2 years</p>
-               <span>UI/UX Design</span>
+               <p>Federal University of Technology, Minna</p>
+               <span>Biochemistry</span>
             </div>
          </div>
       </div>
