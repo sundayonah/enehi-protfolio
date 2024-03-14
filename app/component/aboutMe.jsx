@@ -30,7 +30,7 @@ const AboutMe = () => {
                </svg>
                <h2>Experience</h2>
                <p>2 years</p>
-               <span>UI/UX Design</span>
+               <span className='font-bold text-gray-400'>UI/UX Design</span>
             </div>
             <div className="flex flex-col mt-4 sm:mt-0  items-center py-3 px-20 sm:px-20 shadow-2xl  rounded-tr-lg rounded-bl-lg ">
                <svg
