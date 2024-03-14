@@ -14,12 +14,12 @@ const Hero = () => {
          <div className="mx-auto max-w-6xl  pb-10 pt-6 text-center px-6 sm:px-32 lg:px-8">
             <div className="">
                <span className="text-sm ">Hello, {`I'm`}</span>
-               <p className="text-gray-500 text-xl pb-1">
+               <p className="text-gray-800 text-2xl pb-1 font-extrabold">
                   Ojedapo Oluwakemi Elizabeth
                </p>
                <p className="text-xs">
                   A passionate{' '}
-                  <span className="text-blue-700">UI/UX Designer,</span>{' '}
+                  <span className="text-blue-700 text-lg font-bold">UI/UX Designer,</span>{' '}
                   crafting exceptional digital experiences.
                </p>
             </div>
